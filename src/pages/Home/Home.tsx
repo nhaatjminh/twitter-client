@@ -24,7 +24,12 @@ export default function Home() {
         </a>
       </div>
       <h1>Vite + React</h1>
-
+      <video controls width={500}>
+        <source 
+          src="http://localhost:5000/static/video-stream/6d6928106463d7a227383ef00.mp4"
+          type="video/mp4"
+        />
+      </video>
       <p className="read-the-docs">
         {isAuthen ? (
           <>
